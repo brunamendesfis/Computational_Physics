@@ -1,4 +1,4 @@
-# Aprendendo a usar Git
+# Aprendendo a usar GitHub
 
 Primeira aula sobre o Git do professor Gerson
 
