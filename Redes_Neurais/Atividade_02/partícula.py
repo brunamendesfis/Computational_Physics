@@ -30,5 +30,3 @@ class Particula():
         self.x = self.vx*dt
         self.y = self.vy*dt
 
-        fx = self.massa * self.vx/dt
-        fy = self.massa * self.vy/dt
