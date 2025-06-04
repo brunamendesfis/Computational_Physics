@@ -4,7 +4,7 @@ This folder documents my progress in learning the fundamentals of Neural Network
 
 ## 1st Activity:
 
-To better understand NNs, this first activity focused on learning what a learning rate is and how to apply it to optimize a function using Gradient Descent (GD). This concept was extremely important for the next steps.
+To better understand NNs, this first activity focused on understand what a learning rate is and how to apply it to optimize a function using Gradient Descent (GD). This concept was extremely important for the next steps.
 
 ## 2nd Activity:
 
