@@ -8,25 +8,22 @@ class Particula():
         self.massa = massa
 
     def newton(self, fx, fy, dt):
-        """ Função para aplicar a Segunda Lei de Newton e atualizar a velocidade e a posição da partícula.
+        """ Function to apply Newton's Second Law and update the velocity and position of the particle.
 
-        Parâmetros:
+        Parameters:
         
-        fx (float): Calcula a força na direção x (N)
-        fy (float): Calcula a força na direção y (N)
-        dt (float): Intervalo de tempo (s)
+        fx (float): Force in the x direction (N)
+        fy (float): Force in the y direction (N)
+        dt (float): Time interval (s)
 
         """
         
-        # Cálculo das acelarações me cada eixo:
+        # The acceleration for each axis
         ax = fx/self.massa
         ay = fy/self.massa
         
-        # Atualiza as velocidades:
+        # Update the velocity and position
         self.vx += ax*dt
         self.vy += ay*dt
-
-        # Atualiza as posições:
-        self.x = self.vx*dt
-        self.y = self.vy*dt
-
+        self.x += self.vx*dt
+        self.y += self.vy*dt
