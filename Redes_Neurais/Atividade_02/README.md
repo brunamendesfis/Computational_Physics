@@ -1,0 +1,1 @@
+This activity provides an opportunity to use object-oriented programming by creating a class that represents a particle in 2D. The objective is to use this class to simulate oblique motion using Newton's Second Law.
