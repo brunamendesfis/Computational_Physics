@@ -2,35 +2,33 @@
 
 This folder contains four activities designed to deepen your understanding of optimization for polynomial and sinusoidal functions by exploring the impact of the learning rate on gradient descent.
 
-## Exercise 1: The first function studied was
+## Exercise 1:
+
+The first function studied is
 
 $$U(x) = x^2 - 1$$
 
-### Example 1.1
-
-![alt text](image.png)
-
-### Example 1.2
+### Example
 
 ![alt text](image-1.png)
 
-From the two plots above, one can see that increasing the learning rate decreases the number of Gradient Descent steps needed to reach the minimum of the function.
+From what is made in the code one can see that increasing the learning rate decreases the number of Gradient Descent steps needed to reach the minimum of the function.
 
-## Exercise 2: The second function
+## Exercise 2:
+
+The second function is
 
 $$U(x) = x^2(x - 1)(x + 1)$$
 
-### Example 2.1
-
-![alt text](image-2.png)
-
-### Example 2.2
+### Example
 
 ![alt text](image-3.png)
 
 As in Exercise 1, increasing the learning rate increases the number of Gradient Descent steps. However, since the function in Exercise 2 has two minima, the value of $\alpha$ will determine which minimum Gradient Descent will tend towards.
 
-## Exercise 3: The third function
+## Exercise 3:
+
+The third function is
 
 $$U(x) = x^2(x - 1)(x + 1) + \frac{x}{4}$$
 
