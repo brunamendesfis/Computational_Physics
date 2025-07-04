@@ -38,7 +38,9 @@ $$U(x) = x^2(x - 1)(x + 1) + \frac{x}{4}$$
 
 The linear term $\frac{x}{4}$, which differentiates the functions from Exercises 2 and 3, is responsible for smoothing the curve, allowing a higher learning rate for this function.
 
-## Exercise 4: The fourth function
+## Exercise 4:
+
+The fourth function is
 
 $$U(\vec{r}) = U(x, y) = \sin(x)\cos(y) + \frac{2(xy)^2}{1000}$$
 
