@@ -4,7 +4,7 @@ This folder contains four activities designed to deepen your understanding of op
 
 ## Exercise 1:
 
-The first function studied is
+The first function is
 
 $$U(x) = x^2 - 1$$
 
