@@ -1,0 +1,3 @@
+# Band Structure Calculation with Plane Waves
+
+This notebook explores the calculation of electronic band structures in a periodic potential using the plane wave method. The Hamiltonian matrix is constructed for different values of the coupling parameter $\alpha$ and diagonalized to obtain the energy bands as a function of the wave vector $k$. This exercise helped me to understand the formation of energy bands in solids and the effect of potential strength on the band.
