@@ -10,7 +10,7 @@ The project models the temperature ($T$) of an object over time ($t$) using the 
 
 $$\frac{dT}{dt} = r \cdot (T_{amb} - T)$$ 
 
-Where:$T_{amb}$ is the ambient temperature, $r$ is the cooling rate (the unknown parameter to be discovered).
+Where: $T_{amb}$ is the ambient temperature, $r$ is the cooling rate (the unknown parameter to be discovered).
 
 # The notebook features three core machine learning implementations:
 
