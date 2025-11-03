@@ -14,7 +14,7 @@ is the ambient temperature, $r$ is the cooling rate (the unknown parameter to be
 
 # The notebook features three core machine learning implementations:
 
-1. Traditional Neural Network (NN): Purely supervised learning, trained on synthetic temperature data with added noise. I used 4 fully connected layers with the ReLU activation function and the Mean Squared Error (MSE), to compare the predicted temperature to the noisy data. This setup serves as a baseline to see how a standard NN learns a physical curve without explicit physics guidance. For the Physics-Informed Neural Network (PINN) with r known, I combined a Data Loss (MSE vs. synthetic data) and a Physics Loss (MSE of the ODE residual). TensorFlow's automatic differentiation (tf.GradientTape) was also used to calculate $\frac{dT}{dt}$ and ensure the prediction satisfies the ODE:
+Traditional Neural Network (NN): Purely supervised learning, trained on synthetic temperature data with added noise. I used 4 fully connected layers with the ReLU activation function and the Mean Squared Error (MSE), to compare the predicted temperature to the noisy data. This setup serves as a baseline to see how a standard NN learns a physical curve without explicit physics guidance. For the Physics-Informed Neural Network (PINN) with r known, I combined a Data Loss (MSE vs. synthetic data) and a Physics Loss (MSE of the ODE residual). TensorFlow's automatic differentiation (tf.GradientTape) was also used to calculate $\frac{dT}{dt}$ and ensure the prediction satisfies the ODE:
 
 $\left(\frac{dT}{dt} - r \cdot (T_{amb} - T)\right)^2 \approx 0$.
 
